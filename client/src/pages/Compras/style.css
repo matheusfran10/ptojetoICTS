@@ -1,0 +1,71 @@
+.container {
+    width: 100%;
+    max-width: 720px;
+    
+    margin: 3em auto 6em auto;
+    flex: 1;
+    
+}
+
+button, input {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 12px;
+    transition: 0.15s ease-in;
+}
+
+/*-------------------- HEADER-----------*/
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.main-header .btn-new-comp{
+    background-color: #277FFF;
+    color: white;
+}
+.main-header .btn-new-comp:hover {
+    background-color: #0068ff;
+}
+.main-header .total-comp{
+   color: #3d3d3d;
+   font-size: 0.9em;
+   font-weight: 600;
+}
+.main-header #count-comp{
+    font-weight: 700;
+    font-size: 1.15em;
+}
+
+/* ------------------ TABLE ----------*/
+
+table{
+    width: 100%;
+    text-align: left;
+    border-spacing: 0 0.5rem;
+}
+
+
+
+table thead th {
+    background-color: #fff;
+    color: #969cb3;
+    opacity: 0.9;
+    padding: 1em;
+    font-size: 0.9em;
+}
+
+table tbody tr:first-child {
+    margin-top: 24px;
+}
+
+table tbody td {
+    background-color: #fff;
+    color: #83889a;
+    padding: 1.2em;
+    font-weight: 700;
+}

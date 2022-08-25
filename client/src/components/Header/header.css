@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+    background-color: #1E90FF;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.compras, .produtos {
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
